@@ -1,0 +1,1 @@
+Z:\ODS\UWP\UWP\MyUWP\MyUWP.csproj;x86
