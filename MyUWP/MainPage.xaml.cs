@@ -30,11 +30,22 @@ namespace MyUWP
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            MediaElement  mediaElement = new MediaElement();
-            SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
-            SpeechSynthesisStream speechSynthesisStream =await speechSynthesizer.SynthesizeTextToStreamAsync(mytextbox.Text);
-            mediaElement.SetSource(speechSynthesisStream, speechSynthesisStream.ContentType);
-            mediaElement.Play();
+            //MediaElement  mediaElement = new MediaElement();
+            //SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer(); 
+            //SpeechSynthesisStream speechSynthesisStream =await speechSynthesizer.SynthesizeTextToStreamAsync(mytextbox.Text);
+            //mediaElement.SetSource(speechSynthesisStream, speechSynthesisStream.ContentType);
+            //mediaElement.Play();
+
+            var input = txt_Name.Text;
+            if (!string.IsNullOrEmpty(input))
+            {
+                txtBlck_Result.Text = $"your input is valid and your input is {input}";
+            }
+            else
+            {
+                txtBlck_Result.Text = "your input is not valid";
+            }
+
         }
     }
 }
