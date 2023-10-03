@@ -36,15 +36,15 @@ namespace MyUWP
             //mediaElement.SetSource(speechSynthesisStream, speechSynthesisStream.ContentType);
             //mediaElement.Play();
 
-            var input = txt_Name.Text;
-            if (!string.IsNullOrEmpty(input))
-            {
-                txtBlck_Result.Text = $"your input is valid and your input is {input}";
-            }
-            else
-            {
-                txtBlck_Result.Text = "your input is not valid";
-            }
+            //var input = txt_Name.Text;
+            //if (!string.IsNullOrEmpty(input))
+            //{
+            //    txtBlck_Result.Text = $"your input is valid and your input is {input}";
+            //}
+            //else
+            //{
+            //    txtBlck_Result.Text = "your input is not valid";
+            //}
 
         }
     }

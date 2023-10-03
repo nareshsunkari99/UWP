@@ -30,13 +30,13 @@
     <AppXManifest Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-29T04:43:11.176</Modified>
+      <Modified>2023-10-03T04:27:52.644</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\MyUWP.exe">
       <PackagePath>entrypoint\MyUWP.exe</PackagePath>
-      <Modified>2023-09-29T04:43:10.654</Modified>
+      <Modified>2023-10-03T04:27:52.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -45,6 +45,18 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2023-05-11T18:24:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\1.jpg">
+      <PackagePath>Images\1.jpg</PackagePath>
+      <Modified>2023-10-03T04:23:12.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\2.jfif">
+      <PackagePath>Images\2.jfif</PackagePath>
+      <Modified>2023-10-03T04:23:12.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\3.jfif">
+      <PackagePath>Images\3.jfif</PackagePath>
+      <Modified>2023-10-03T04:23:12.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -86,15 +98,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\MyUWP.xr.xml">
       <PackagePath>MyUWP.xr.xml</PackagePath>
-      <Modified>2023-09-29T04:21:58.822</Modified>
+      <Modified>2023-10-03T04:27:16.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-09-29T04:43:10.606</Modified>
+      <Modified>2023-10-03T04:27:52.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-09-29T04:43:10.606</Modified>
+      <Modified>2023-10-03T04:27:52.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-28T04:49:34.408</Modified>
+      <Modified>2023-10-03T04:24:43.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\Core\MyUWP.exe">
       <PackagePath>MyUWP.exe</PackagePath>
-      <Modified>2023-09-29T04:43:11.174</Modified>
+      <Modified>2023-10-03T04:27:52.641</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

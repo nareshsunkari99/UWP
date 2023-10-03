@@ -13,13 +13,49 @@
         <Button Height="50px" Width="200px"   VerticalAlignment="Top" Click="Button_Click">My Test</Button>
     </StackPanel>-->
 
+    
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left">
+
+        <!--<StackPanel Orientation="Horizontal">
+            <AppBarButton Icon="Like"/>
+
+            <AppBarButton Icon="Dislike"/>
+
+            <AppBarSeparator/>
+            
+
+            <AppBarButton  Icon="Admin"/>
+
+            --><!--<ToggleButton x:Name="tgl_myapp" FontFamily="Segoe MDL2 Assets"
+                  Content="?"        HorizontalAlignment="Center"></ToggleButton>--><!--
+            
+            
+            
+        </StackPanel>-->
+        
+        <!--<StackPanel HorizontalAlignment="Left" Margin="40" >
             <TextBlock Text="Hello" Margin="20" Width="250" HorizontalAlignment="Left"/>
             <TextBlock Text="Write your Input" Margin="20" Width="250" HorizontalAlignment="Left"/>
             <TextBox x:Name="txt_Name" Width="250" Margin="20" HorizontalAlignment="Left"/>
             <Button x:Name="btn_Click" Content="Submit" Margin="20" Click="Button_Click"/>
             <TextBlock x:Name="txtBlck_Result" Margin="20" Width="250" HorizontalAlignment="Left"/>
+        </StackPanel>-->
+        
+        <StackPanel >
+            <FlipView Height="400" Margin="10" Width="400" >
+                <Image  Source="/Images/1.jpg" />
+                <Image  Source="/Images/2.jfif" />
+                <Image  Source="/Images/3.jfif" />
+                <Image  Source="/Images/1.jpg" />
+                <Image  Source="/Images/2.jfif" />
+                <Image  Source="/Images/3.jfif" />
+                <Image  Source="/Images/1.jpg" />
+                <Image  Source="/Images/2.jfif" />
+                <Image  Source="/Images/3.jfif" />
+                <Image  Source="/Images/1.jpg" />
+                <Image  Source="/Images/2.jfif" />
+                <Image  Source="/Images/3.jfif" />
+            </FlipView>
         </StackPanel>
     </Grid>
 </Page>

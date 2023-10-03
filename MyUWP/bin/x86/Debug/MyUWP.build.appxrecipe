@@ -34,6 +34,15 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\1.jpg">
+      <PackagePath>Images\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\2.jfif">
+      <PackagePath>Images\2.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Images\3.jfif">
+      <PackagePath>Images\3.jfif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\ODS\UWP\UWP\MyUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
