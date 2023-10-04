@@ -14,9 +14,9 @@
     </StackPanel>-->
 
     
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <!--<StackPanel Orientation="Horizontal">
+        --><!--<StackPanel Orientation="Horizontal">
             <AppBarButton Icon="Like"/>
 
             <AppBarButton Icon="Dislike"/>
@@ -39,7 +39,7 @@
             <TextBox x:Name="txt_Name" Width="250" Margin="20" HorizontalAlignment="Left"/>
             <Button x:Name="btn_Click" Content="Submit" Margin="20" Click="Button_Click"/>
             <TextBlock x:Name="txtBlck_Result" Margin="20" Width="250" HorizontalAlignment="Left"/>
-        </StackPanel>-->
+        </StackPanel>--><!--
         
         <StackPanel >
             <FlipView Height="400" Margin="10" Width="400" >
@@ -56,6 +56,19 @@
                 <Image  Source="/Images/2.jfif" />
                 <Image  Source="/Images/3.jfif" />
             </FlipView>
+        </StackPanel>
+    </Grid>-->
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:ConnectionId='2' Name="Display">
+            <StackPanel Orientation="Horizontal" Margin="50,50,0,0">
+                <TextBlock Text="Name" Margin="10" />
+                <TextBox Margin="10" Width="200" Text="{Binding Name}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="50,50,0,0">
+                <TextBlock Text="Designation" Margin="10" />
+                <TextBox Margin="10" Width="200"  Text="{Binding Designation}"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>

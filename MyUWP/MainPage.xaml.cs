@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyUWP.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace MyUWP
         public MainPage()
         {
             this.InitializeComponent();
+            DataContext = Person.GetPerson();
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
