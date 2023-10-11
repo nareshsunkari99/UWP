@@ -58,9 +58,9 @@
             </FlipView>
         </StackPanel>
     </Grid>-->
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel x:ConnectionId='2' Name="Display">
+<!--Single DataBinding-->
+    <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Name="Display">
             <StackPanel Orientation="Horizontal" Margin="50,50,0,0">
                 <TextBlock Text="Name" Margin="10" />
                 <TextBox Margin="10" Width="200" Text="{Binding Name}" />
@@ -70,6 +70,34 @@
                 <TextBox Margin="10" Width="200"  Text="{Binding Designation}"/>
             </StackPanel>
         </StackPanel>
+    </Grid>-->
+    <!--Two way Data Binding-->
+    <Grid Background="{ThemeResource IMECandidateSelectedForegroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center" >
+            <StackPanel Orientation="Horizontal" Margin="50,50,0,0">
+                <TextBlock Text="Name" Margin="10" />
+                <TextBox Margin="10" Width="200" Text="{Binding Name, Mode=TwoWay}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="50,50,0,0">
+                <TextBlock Text="Designation" Margin="10" />
+                <TextBox Margin="10" Width="200"  Text="{Binding Designation, Mode=TwoWay}"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Button x:ConnectionId='2' Content="Display"                        ></Button>
+                <TextBlock x:ConnectionId='3' x:Name="txtblock" ></TextBlock>
+                        
+            </StackPanel>
+
+        </StackPanel>
     </Grid>
+          
 </Page>
 

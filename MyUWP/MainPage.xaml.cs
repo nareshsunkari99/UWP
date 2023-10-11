@@ -24,10 +24,13 @@ namespace MyUWP
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Person person;
         public MainPage()
         {
             this.InitializeComponent();
-            DataContext = Person.GetPerson();
+            person = Person.GetPerson();
+            
+            DataContext = person;
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -47,6 +50,13 @@ namespace MyUWP
             //{
             //    txtBlck_Result.Text = "your input is not valid";
             //}
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var message = $"{person.Name } is a {person.Designation}";
+            txtblock.Text=message;  
 
         }
     }

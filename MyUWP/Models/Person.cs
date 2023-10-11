@@ -5,7 +5,7 @@
         public string Name { get; set; }
         public string Designation { get; set; }
 
-        public static Person GetPerson()
+        public static  Person GetPerson()
         {
             return new Person()
             {
