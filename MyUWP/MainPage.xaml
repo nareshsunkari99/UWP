@@ -93,7 +93,8 @@
             <StackPanel>
                 <Button Content="Display" Click="Button_Click_1" ></Button>
                 <TextBlock x:Name="txtblock" ></TextBlock>
-                        
+                <Button Content="Display" x:Name="hidden" ></Button>
+
             </StackPanel>
 
         </StackPanel>

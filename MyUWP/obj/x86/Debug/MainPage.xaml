@@ -93,7 +93,8 @@
             <StackPanel>
                 <Button x:ConnectionId='2' Content="Display"                        ></Button>
                 <TextBlock x:ConnectionId='3' x:Name="txtblock" ></TextBlock>
-                        
+                <Button x:ConnectionId='4' Content="Display" x:Name="hidden" ></Button>
+
             </StackPanel>
 
         </StackPanel>

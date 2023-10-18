@@ -43,3 +43,7 @@ Z:\ODS\UWP\UWP\MyUWP\obj\x86\Debug\qualifiers.txt.intermediate
 Z:\ODS\UWP\UWP\MyUWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 Z:\ODS\UWP\UWP\MyUWP\obj\x86\Debug\ProjectArchitectures.txt
 Z:\ODS\UWP\UWP\MyUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638194262980000000.json
+Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\DboperationsUWP.dll
+Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\DboperationsUWP.pdb
+Z:\ODS\UWP\UWP\MyUWP\bin\x86\Debug\DboperationsUWP.pri
+Z:\ODS\UWP\UWP\MyUWP\obj\x86\Debug\DboperationsUWP.pri.xml

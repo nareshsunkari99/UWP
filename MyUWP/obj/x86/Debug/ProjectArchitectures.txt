@@ -1,1 +1,2 @@
+Z:\ODS\UWP\UWP\DboperationsUWP\DboperationsUWP.csproj;x86
 Z:\ODS\UWP\UWP\MyUWP\MyUWP.csproj;x86

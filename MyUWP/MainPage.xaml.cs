@@ -1,9 +1,11 @@
-﻿using MyUWP.Models;
+﻿using DboperationsUWP;
+using MyUWP.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.ServiceModel.Dispatcher;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media.SpeechSynthesis;
@@ -55,8 +57,20 @@ namespace MyUWP
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+
+            CrudOperations crudOperations = new CrudOperations();
+            crudOperations.CreateRecord(person.Name, person.Designation);
             var message = $"{person.Name } is a {person.Designation}";
             txtblock.Text=message;  
+
+            if(person.Name.Length>0)
+            {
+                hidden.Visibility= Visibility.Visible;
+            }
+            else
+            {
+                hidden.Visibility= Visibility.Collapsed;
+            }
 
         }
     }
